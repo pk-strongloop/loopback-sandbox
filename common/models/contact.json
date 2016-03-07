@@ -1,0 +1,22 @@
+{
+  "name": "Contact",
+  "base": "PersistedModel",
+  "strict": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type":"string"
+    },
+    "middlename": {
+      "type":"string"
+    },
+    "lastname": {
+      "type":"string"
+    }
+  },
+  "validations": [],
+  "acls": [],
+  "methods": {}
+}
